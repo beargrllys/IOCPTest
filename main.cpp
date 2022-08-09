@@ -5,19 +5,19 @@
 const UINT16 SERVER_PORT = 11021;
 const UINT16 MAX_CLIENT = 100;
 
-int main()
+/*int main()
 {
     IOCPServer ioCompletionPort;
 
-    //ì†Œì¼“ ì´ˆê¸°í™”
+    //¼ÒÄÏ ÃÊ±âÈ­
     ioCompletionPort.InitSocket();
 
-    //ì†Œì¼“ê³¼ ì„œë²„ì£¼ì†Œë¥¼ ì—°ê²°í•˜ê³  ë“±ë¡ì‹œí‚¨ë‹¤.
+    //¼ÒÄÏ°ú ¼­¹öÁÖ¼Ò¸¦ ¿¬°áÇÏ°í µî·Ï½ÃÅ²´Ù.
 
     ioCompletionPort.BindandListen(SERVER_PORT);
     ioCompletionPort.StartServer(MAX_CLIENT);
 
-    printf("ì•„ë¬´ í‚¤ë‚˜ ëˆ„ë¥¼ ë•Œê¹Œì§€ ëŒ€ê¸°í•©ë‹ˆë‹¤.");
+    printf("¾Æ¹« Å°³ª ´©¸¦ ¶§±îÁö ´ë±âÇÕ´Ï´Ù.");
     while(true)
     {
         std::string inputCmd;
@@ -31,4 +31,4 @@ int main()
 
     ioCompletionPort.DestoryThread();
     return 0;
-}
+}*/
